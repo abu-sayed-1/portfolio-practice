@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section{
+    margin-top: 9rem;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)), url("../download.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0 65%);
+
+} 
+
+
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .4;
+    z-index: -1;
+    background:linear-gradient(to right, #0d77f163 0%, #07f5d94b 0%, #16c9f68c 100%) 
+}
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .4;
+    z-index: -1; 
+    background:linear-gradient(to right, #0d77f163 0%, #07f5d94b 0%, #16c9f68c 100%) 
+}
+
+.nav-item a{
+    color: white!important;
+} 
+
+.font_icon{
+    text-align: center !important;
+}
+.card_content:hover{
+    border-radius: 13px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transition: 0.4s;
+    transform:translateY(-20px) ;
+    -webkit-transform:translateY(-20px) ;
+    -moz-transform:translateY(-20px) ;
+    -ms-transform:translateY(-20px) ;
+    -o-transform:translateY(-20px) ;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+ 
+ .pricing_content{
+     height: 100vh;
+ }
+
+ .pricing_content::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .5;
+    z-index: -1; 
+    background:linear-gradient(156deg, red 55%, #fff 0%) 
+ 
+ }   
+  
+ .price{
+     font-size: 40px;
+     line-height: 1;
+ }
+
+ .card-header{
+     font-size: 1.6rem;
+ }
+
+ .card:hover .card-header, .card:hover .price{
+    color: rgba(4, 215, 243, 0.911) !important;
+}
+
+ .card:hover .purchase_btn{
+    box-shadow: 0 0 22px 0 rgba(0,0,0,0.1);
+    transition: 0.5s !important;
+    width: 200px;
+   
+}
+
+.card_first:hover{
+    transition: 0.4s;
+    transform:translateY(-100px) ;
+    box-shadow: 0 0 22px 0 rgba(0,0,0,0.3);
+    -webkit-transform:translateY(-100px) ;
+    -moz-transform:translateY(-100px) ;
+    -ms-transform:translateY(-100px) ;
+    -o-transform:translateY(-100px) ;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.card_first{
+    transform:translateY(-80px);
+    -webkit-transform:translateY(-80px);
+    -moz-transform:translateY(-80px);
+    -ms-transform:translateY(-80px);
+    -o-transform:translateY(-80px);
+}
+
+.card_second:hover{
+    transition: 0.4s;
+    transform:translateY(-80px) ;
+    box-shadow: 0 0 22px 0 rgba(0,0,0,0.3);
+    -webkit-transform:translateY(-80px) ;
+    -moz-transform:translateY(-80px) ;
+    -ms-transform:translateY(-80px) ;
+    -o-transform:translateY(-80px) ;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.card_second{
+    transform:translateY(-27px) ;
+    -webkit-transform:translateY(-40px) ;
+    -moz-transform:translateY(-27px) ;
+    -ms-transform:translateY(-27px) ;
+    -o-transform:translateY(-27px) ;
+    -webkit-transform:translateY(-27px) ;
+}
+.card_third:hover{
+    transition: 0.4s;
+    transform:translateY(-130px) ;
+    box-shadow: 0 0 22px 0 rgba(0,0,0,0.3);
+    -webkit-transform:translateY(-130px) ;
+    -moz-transform:translateY(-130px) ;
+    -ms-transform:translateY(-130px) ;
+    -o-transform:translateY(-130px) ;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.carousel-item p{
+    padding: 1rem !important;
+    margin-right: 6rem !important;
+}
+
+.from_content{
+ background:linear-gradient(330deg, rgba(0, 110, 255, 0.733) 55%, #fff 0%);
+}
